@@ -1,0 +1,46 @@
+class guepardo:
+    def __init__(self, nombre, edad, sexo, peso, habitat):
+        self.__nombre = nombre
+        self.__edad = edad
+        self.__sexo = sexo
+        self.__peso = peso
+        self.__habitat = habitat
+
+    def get_nombre(self):
+        return self.nombre
+
+    def set_nombre(self, nombre):
+        self.nombre = nombre
+
+    def get_edad(self):
+        return self.edad
+
+    def set_edad(self, edad):
+        self.edad = edad
+
+    def get_sexo(self):
+        return self.sexo
+
+    def set_sexo(self, sexo):
+        self.sexo = sexo
+
+    def get_peso(self):
+        return self.peso
+
+    def set_peso(self, peso):
+        self.peso = peso
+
+    def get_habitat(self):
+        return self.habitat
+
+    def set_habitat(self, habitat):
+        self.habitat = habitat
+        
+    def comer(self):
+        print("Un guepardo puede comer hasta 150kg de comidad")
+
+    def velocidad (self):
+        print("Los guepardos alcanzan velocidades de 100km/h")
+
+    def rugir(self):
+        print("Los guepardos no rugen como los leones y tigres estos maullan y ronronean")
